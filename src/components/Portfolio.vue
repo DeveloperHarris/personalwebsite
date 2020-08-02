@@ -145,7 +145,7 @@ export default {
             "<br/>" +
             "_Soldering Components onto the Payload Control System (PCS)_" +
             "<br/><br/>" +
-            '<img class="modalImages" src="/static/PCS.jpg" width="50%"/>' +
+            '<img class="modalImages" src="/static/pcs.jpg" width="50%"/>' +
             "<br/>" +
             "_Fully Assembled Payload Control System_" +
             "<br/><br/>" +
