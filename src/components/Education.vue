@@ -16,7 +16,7 @@
           </div>
           <div class="gpa">
             <div class="gpa_header">GPA:&nbsp;</div>
-            <div class="gpa_num">3.1</div>
+            <div class="gpa_num">3.14</div>
           </div>
         </div>
       </div>
@@ -25,9 +25,14 @@
       <div class="coursework_header">Relevant Coursework:</div>
       <div class="courses">
         Data Structures & Algorithms
-        <br />Algorithm Design & Analysis <br />Web Programming <br />Discrete
-        Structures <br />Intro to Computer Systems <br />Advanced Programming
-        Concepts <br />Theory of Computation
+        <br />Algorithm Design & Analysis
+        <br />Web Programming
+        <br />Discrete
+        Structures
+        <br />Intro to Computer Systems
+        <br />Advanced Programming
+        Concepts
+        <br />Theory of Computation
       </div>
       <div class="condensedCourses">
         Data Structures & Algorithms, Algorithm Design & Analysis, Web

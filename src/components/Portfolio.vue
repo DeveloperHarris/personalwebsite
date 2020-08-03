@@ -22,6 +22,35 @@ export default {
     return {
       portfolioItems: [
         {
+          title: "Twitter Follower Export Tool",
+          image: "pineapple.png",
+          story:
+            '<img src="https://user-images.githubusercontent.com/12452699/85966357-828c9500-b98d-11ea-9e47-d6028ef40320.gif"/>' +
+            "<br/><br/>" +
+            'Motivated by a bounty created by <a href="https://twitter.com/balajis/status/1272184608973447173">Balaji S. Srinivasan</a>, a friend and I created a Twitter Export CLI tool. Built with **Node**, its features include: ' +
+            "<ul>" +
+            "<li>Strong focus on locally stored information, no data stored online giving the user full control.</li>" +
+            "<li>Intuitive and visually appealing CLI menu, allowing anyone to use it</li>" +
+            "<li>Config file that stores Twitter API app keys allowing for a quick startup</li>" +
+            "<li>Local SQLite database creating a seamless setup process</li>" +
+            '<li>Ability to view all total followers and download or "sync" the information locally</li>' +
+            "<li>Automatically handles API rate limits allowing a person to run once and forget</li>" +
+            "<li>Export all downloaded follower information to CSV, with the option to only pick selected columns if preferred.</li>" +
+            "<li>DM all followers w/ message preview and confirmation</li>" +
+            "<li>DM test user w/ message preview and confirmation</li>" +
+            "<li>Message parsing through handlebars.js allowing {id}, {screen_name}, {followers}, {friends} and other data to be used in messages for personalization</li>" +
+            "<li>Reset config and followers database quickly through dedicated command</li>" +
+            "</ul>" +
+            "<br/>" +
+            "Additionally, we also created desktop application designs and prototypes with **Oauth** & **Electron** but were unable to complete them in time for the bounty deadline." +
+            "<br/><br/>" +
+            '<img class="modalImages dropshadowImage" src="https://user-images.githubusercontent.com/12452699/85967509-a0a7c480-b990-11ea-94fc-ab9a0dba7410.png" width="75%"/>' +
+            "<br/>" +
+            'All the source code is available under an **MIT license** at : **<a href="https://github.com/DeveloperRyan/project-pineapple">Github Repo</a>**' +
+            "<br/><br/>" +
+            "Date: June 2020",
+        },
+        {
           title: "Calibur, Esports Startup",
           image: "darioharris.png",
           story:
@@ -179,6 +208,8 @@ export default {
             "<br/>" +
             "_BYU High Powered Rocketry Team - 2019_" +
             "<br/><br/>" +
+            "Being a member of BYU Rocketry has been one of the pinnacle experiences of my time at BYU. Since my freshman semester, I have learned how to design, model, and build rockets ranging from small model rockets to high powered compeition rockets. Additionally, I have had the opportunity to be a member on BYU Rocketry's High Powered Competition during the years of 2019, 2020 and 2021 as well as a member of the Hybrid Propulsion Research group. The experience and friendships I've made along the way are priceless, and I am extremely greatful such an organization exists at BYU. " +
+            "<br/><br/>" +
             '<iframe width="500" height="300" src="https://www.youtube.com/embed/gcxcKwBVJCY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' +
             "<br/>" +
             '_"Determination" - Launch Video_' +
@@ -201,6 +232,8 @@ export default {
           title: "BYU Spacecraft Group",
           image: "femtosat.jpg",
           story:
+            "The BYU Spacecraft Research Group is an organization at BYU that helps undergraduate students become spacecraft engineers. During my time there I had the opportunity to learn how to design, build, and program custom electronics, as well as learn the intricacies of RF and spacecraft operation. As part of the introductory freshamn comptetion, I created a femtosatellite which collected GPS, IMU, and barometric data, and then transmitted that data to a RF goundstation for post-processing." +
+            "<br/><br/>" +
             '<img class="modalImages" src="/static/femto.jpg" width="50%"/>' +
             "<br/>" +
             "_Femtosatellite PCB_" +
@@ -214,20 +247,6 @@ export default {
             "_Fully Assembled Femtosatellite_" +
             "<br/><br/>" +
             "Date: Sept 2017 - Apr 2018",
-        },
-        {
-          title: "g.tec Neurotechnologies",
-          image: "gtec.jpg",
-          story:
-            '<img class="modalImages" src="/static/helloworld.jpg" width="50%"/>' +
-            "<br/>" +
-            "_Typing 'Hello World!' using Brain Computer Interface_" +
-            "<br/><br/>" +
-            '<img class="modalImages" src="/static/bcitext.jpg" width="50%"/>' +
-            "<br/>" +
-            "BCI GUI" +
-            "<br/><br/>" +
-            "Date: May 2018 - August 2018",
         },
         {
           title: "Unreal Engine Renders",
@@ -271,5 +290,13 @@ export default {
     width: 100%;
     height: 100%;
   }
+}
+
+ul {
+  text-align: left;
+}
+
+.dropshadowImage {
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
 }
 </style>
